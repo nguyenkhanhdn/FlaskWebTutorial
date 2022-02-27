@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Url_for()</title>
+</head>
+<body>
+    <h2>Sử dụng url_for() để tạo liên kết hyperlink</h2>
+    <hr/>
+    <ul>
+        <li>create:
+            <a href="{{ url_for('create',first_name='Khanh',last_name='Nguyen')}}">Create</a>
+        </li>
+        <li>
+            Sale/id: <a href="{{ url_for('sales',id=100) }}">Sale</a>
+        </li>
+        <li> Product/name: <a href="{{ url_for('product',name='Abc') }}">Product</a></li>
+    </ul>
+</body>
+</html>
