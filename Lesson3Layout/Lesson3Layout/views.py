@@ -39,4 +39,9 @@ def about():
 @app.route('/test')
 def test():
     """Renders the about page."""
-    return render_template('test.html',heading_title = "Testing - Heading title",subtitle = "Subtitle demo")
+    return render_template(
+        'test.html',
+        heading_title = "Testing - Heading title",
+        subtitle = "Subtitle demo", 
+        title="Login form"
+        )

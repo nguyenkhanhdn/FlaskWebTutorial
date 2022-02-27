@@ -72,6 +72,7 @@
     <Content Include="Lesson3Layout\static\webfonts\fa-solid-900.ttf" />
     <Content Include="Lesson3Layout\static\webfonts\fa-solid-900.woff" />
     <Content Include="Lesson3Layout\static\webfonts\fa-solid-900.woff2" />
+    <Content Include="Lesson3Layout\templates\adlayout.html" />
     <Content Include="Lesson3Layout\templates\aLayout.html" />
     <Content Include="Lesson3Layout\templates\test.html" />
     <Content Include="requirements.txt" />
